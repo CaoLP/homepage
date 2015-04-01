@@ -1,0 +1,1072 @@
+a.btnx, .btnx a {
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-decoration: none;
+    text-indent: -900em;
+    line-height: 100%;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.35);
+}
+
+a.btnx2, .btnx2 a {
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-decoration: none;
+    text-indent: -900em;
+    line-height: 100%;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    -webkit-box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.4), 0px 1px 1px 0px rgba(255, 255, 255, 0.4);
+    -moz-box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.4), 0px 1px 1px 0px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.4), 0px 1px 1px 0px rgba(255, 255, 255, 0.4);
+}
+
+*:first-child + html a.btnx, *:first-child + html .btnx a, *:first-child + html a.btnx2, *:first-child + html .btnx2 a {
+    text-indent: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+a.btnx.l, a.btnx2.l {
+    width: 55px;
+    height: 55px;
+}
+
+a.btnx.m, a.btnx2.m {
+    width: 45px;
+    height: 45px;
+}
+
+a.btnx.s, a.btnx2.s {
+    width: 35px;
+    height: 35px;
+    background-size: 100%;
+}
+
+a.btnx.square, a.btnx2.square {
+    position: relative;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    border-radius: 0px;
+}
+
+a.btnx.rounded, a.btnx2.rounded {
+    position: relative;
+    -moz-border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -khtml-border-radius: 10%;
+    border-radius: 10%;
+}
+
+a.btnx.circle, a.btnx2.circle {
+    position: relative;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+}
+
+a.btnx.plus, a.btnx2.plus {
+    background-image: url(../images/plus.png);
+    background-color: #d84937;
+}
+
+a.btnx.twitter, a.btnx2.twitter {
+    background-image: url(../images/twitter.png);
+    background-color: #3ebef2;
+}
+
+a.btnx.facebook, a.btnx2.facebook {
+    background-image: url(../images/facebook.png);
+    background-color: #4979bb;
+}
+
+a.btnx.rss, a.btnx2.rss {
+    background-image: url(../images/rss.png);
+    background-color: #fa8c17;
+}
+
+a.btnx.bebo, a.btnx2.bebo {
+    background-image: url(../images/bebo.png);
+    background-color: #d53838;
+}
+
+a.btnx.blogger, a.btnx2.blogger {
+    background-image: url(../images/blogger.png);
+    background-color: #f38438;
+}
+
+a.btnx.dA, a.btnx2.dA {
+    background-image: url(../images/dA.png);
+    background-color: #52795d;
+}
+
+a.btnx.digg, a.btnx2.digg {
+    background-image: url(../images/digg.png);
+    background-color: #28699e;
+}
+
+a.btnx.dribble, a.btnx2.dribble {
+    background-image: url(../images/dribble.png);
+    background-color: #ef729a;
+}
+
+a.btnx.flickr, a.btnx2.flickr {
+    background-image: url(../images/flickr.png);
+    background-color: #ececec;
+}
+
+a.btnx.lastfm, a.btnx2.lastfm {
+    background-image: url(../images/lastfm.png);
+    background-color: #e23430;
+}
+
+a.btnx.yahoo, a.btnx2.yahoo {
+    background-image: url(../images/yahoo.png);
+    background-color: #752c95;
+}
+
+a.btnx.pinterest, a.btnx2.pinterest {
+    background-image: url(../images/pinterest.png);
+    background-color: #ce1d25;
+}
+
+a.btnx.vimeo, a.btnx2.vimeo {
+    background-image: url(../images/vimeo.png);
+    background-color: #4797c7;
+}
+
+a.btnx.linkedin, a.btnx2.linkedin {
+    background-image: url(../images/linkedin.png);
+    background-color: #408bb5;
+}
+
+a.btnx.skype, a.btnx2.skype {
+    background-image: url(../images/skype.png);
+    background-color: #7ad5f8;
+}
+
+a.btnx.myspace, a.btnx2.myspace {
+    background-image: url(../images/myspace.png);
+    background-color: #11549a;
+}
+
+a.btnx.wordpress, a.btnx2.wordpress {
+    background-image: url(../images/wordpress.png);
+    background-color: #373636;
+}
+
+a.btnx.tumblr, a.btnx2.tumblr {
+    background-image: url(../images/tumblr.png);
+    background-color: #617085;
+}
+
+a.btnx.stumbleupon, a.btnx2.stumbleupon {
+    background-image: url(../images/stumbleupon.png);
+    background-color: #f65e46;
+}
+
+a.btnx.youtube, a.btnx2.youtube {
+    background-image: url(../images/youtube.png);
+    background-color: #e2e2e2;
+}
+
+a.btnx.share1, a.btnx2.share1 {
+    background-image: url(../images/share1.png);
+}
+
+a.btnx.share2, a.btnx2.share2 {
+    background-image: url(../images/share2.png);
+}
+
+a.btnx.share3, a.btnx2.share3 {
+    background-image: url(../images/share3.png);
+}
+
+a.btnxx.btt, a.btnxx2.btt {
+    background-image: url(../images/back_to_top.png);
+}
+
+a.btnxx.share1_black, a.btnxx2.share1_black {
+    background-image: url(../images/share1_black.png);
+}
+
+a.btnxx.share2_black, a.btnxx2.share2_black {
+    background-image: url(../images/share2_black.png);
+}
+
+a.btnxx.share3_black, a.btnxx2.share3_black {
+    background-image: url(../images/share3_black.png);
+}
+
+a.btnxx.btt_black, a.btnx2.btt_black {
+    background-image: url(../images/back_to_top_black.png);
+}
+
+a.btnx.share1_noshadow, a.btnx2.share1_noshadow {
+    background-image: url(../images/share1_noshadow.png);
+}
+
+a.btnx.share2_noshadow, a.btnx2.share2_noshadow {
+    background-image: url(../images/share2_noshadow.png);
+}
+
+a.btnx.share3_noshadow, a.btnx2.share3_noshadow {
+    background-image: url(../images/share3_noshadow.png);
+}
+
+a.btnx.btt_noshadow, a.btnx2.btt_noshadow {
+    background-image: url(../images/back_to_top_noshadow.png);
+}
+
+a.btnx2.share1_black_noshadow {
+    background-image: url(../images/share1_black_noshadow.png);
+}
+
+a.btnx2.share2_black_noshadow {
+    background-image: url(../images/share2_black_noshadow.png);
+}
+
+a.btnx2.share3_black_noshadow {
+    background-image: url(../images/share3_black_noshadow.png);
+}
+
+a.btnx2.btt_black_noshadow {
+    background-image: url(../images/back_to_top_black_noshadow.png);
+}
+
+a.btnx.dark, a.btnx2.dark {
+    background-color: #393939;
+}
+
+a.btnx.blue, a.btnx2.blue {
+    background-color: #3ebef2;
+}
+
+a.btnx.clear, a.btnx2.clear {
+    background-color: #cccccc;
+}
+
+a.btnx.border_black, a.btnx2.border_black {
+    background-color: transparent;
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.6);
+}
+
+a.btnx.border_white, a.btnx2.border_white {
+    background-color: transparent;
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.6);
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.6);
+}
+
+a.btnx.transparent, a.btnx2.transparent {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+a.btnx.white, a.btnx2.white {
+    background-color: #ffffff;
+}
+
+a.btnx.black, a.btnx2.black {
+    background-color: #000000;
+}
+
+a.btnx.aloe, a.btnx2.aloe {
+    background-color: #71a493;
+}
+
+a.btnx.pool, a.btnx2.pool {
+    background-color: #9ac2ba;
+}
+
+a.btnx.jadite, a.btnx2.jadite {
+    background-color: #72c6a4;
+}
+
+a.btnx.emerald, a.btnx2.emerald {
+    background-color: #00a261;
+}
+
+a.btnx.hunter, a.btnx2.hunter {
+    background-color: #076324;
+}
+
+a.btnx.olive, a.btnx2.olive {
+    background-color: #747b37;
+}
+
+a.btnx.grass, a.btnx2.grass {
+    background-color: #7ac141;
+}
+
+a.btnx.apple, a.btnx2.apple {
+    background-color: #79a12e;
+}
+
+a.btnx.leaf, a.btnx2.leaf {
+    background-color: #93a444;
+}
+
+a.btnx.chartreuse, a.btnx2.chartreuse {
+    background-color: #aebf1b;
+}
+
+a.btnx.sourapple, a.btnx2.sourapple {
+    background-color: #c3b700;
+}
+
+a.btnx.saffron, a.btnx2.saffron {
+    background-color: #febb2f;
+}
+
+a.btnx.mustard, a.btnx2.mustard {
+    background-color: #e5b43b;
+}
+
+a.btnx.tangerine, a.btnx2.tangerine {
+    background-color: #f0901f;
+}
+
+a.btnx.ginger, a.btnx2.ginger {
+    background-color: #e46f1f;
+}
+
+a.btnx.dahlia, a.btnx2.dahlia {
+    background-color: #f46159;
+}
+
+a.btnx.coral, a.btnx2.coral {
+    background-color: #f5856d;
+}
+
+a.btnx.pink, a.btnx2.pink {
+    background-color: #ee919b;
+}
+
+a.btnx.hotpink, a.btnx2.hotpink {
+    background-color: #f16d9c;
+}
+
+a.btnx.azalea, a.btnx2.azalea {
+    background-color: #d15a82;
+}
+
+a.btnx.rose, a.btnx2.rose {
+    background-color: #f2757b;
+}
+
+a.btnx.passion, a.btnx2.passion {
+    background-color: #c26d8a;
+}
+
+a.btnx.raspberry, a.btnx2.raspberry {
+    background-color: #c84a5f;
+}
+
+a.btnx.fucshia, a.btnx2.fucshia {
+    background-color: #ec429a;
+}
+
+a.btnx.scarlet, a.btnx2.scarlet {
+    background-color: #e61938;
+}
+
+a.btnx.cherry, a.btnx2.cherry {
+    background-color: #b6121b;
+}
+
+a.btnx.claret, a.btnx2.claret {
+    background-color: #a00330;
+}
+
+a.btnx.eggplant, a.btnx2.eggplant {
+    background-color: #56004e;
+}
+
+a.btnx.raisin, a.btnx2.raisin {
+    background-color: #7f0d6f;
+}
+
+a.btnx.plum, a.btnx2.plum {
+    background-color: #9d0059;
+}
+
+a.btnx.berry, a.btnx2.berry {
+    background-color: #a24177;
+}
+
+a.btnx.grape, a.btnx2.grape {
+    background-color: #8c7484;
+}
+
+a.btnx.lavender, a.btnx2.lavender {
+    background-color: #b594b3;
+}
+
+a.btnx.lavenderrose, a.btnx2.lavenderrose {
+    background-color: #d693b4;
+}
+
+a.btnx.aqua, a.btnx2.aqua {
+    background-color: #9cc5cb;
+}
+
+a.btnx.pond, a.btnx2.pond {
+    background-color: #72aeb6;
+}
+
+a.btnx.lake, a.btnx2.lake {
+    background-color: #518291;
+}
+
+a.btnx.majollica, a.btnx2.majollica {
+    background-color: #024965;
+}
+
+a.btnx.navy, a.btnx2.navy {
+    background-color: #004b8e;
+}
+
+a.btnx.denim, a.btnx2.denim {
+    background-color: #3a6f8f;
+}
+
+a.btnx.ocean, a.btnx2.ocean {
+    background-color: #006a94;
+}
+
+a.btnx.lagoon, a.btnx2.lagoon {
+    background-color: #01a6e6;
+}
+
+a.btnx.turquoise, a.btnx2.turquoise {
+    background-color: #2cbdd8;
+}
+
+a.btnx.steelblue, a.btnx2.steelblue {
+    background-color: #80a3b7;
+}
+
+a.btnx.mediumblue, a.btnx2.mediumblue {
+    background-color: #4e8abe;
+}
+
+a.btnx.slate, a.btnx2.slate {
+    background-color: #848d94;
+}
+
+a.btnx.graphite, a.btnx2.graphite {
+    background-color: #5f6062;
+}
+
+a.btnx.bark, a.btnx2.bark {
+    background-color: #564319;
+}
+
+a.btnx.mocha, a.btnx2.mocha {
+    background-color: #603814;
+}
+
+a.btnx.sepia, a.btnx2.sepia {
+    background-color: #8d6a40;
+}
+
+a.btnx.brownsugar, a.btnx2.brownsugar {
+    background-color: #bc977a;
+}
+
+a.btnx.taupe, a.btnx2.taupe {
+    background-color: #b7b295;
+}
+
+a.btnx:hover {
+    -webkit-animation: Light 2s infinite;
+    -moz-animation: Light 2s infinite;
+    -o-animation: Light 2s infinite;
+    animation: Light 2s infinite;
+}
+
+@-webkit-keyframes Light {
+    0% {
+        -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(255, 255, 255, 0), inset 0px 0px 0px 55px rgba(255, 255, 255, 0);
+    }
+    50% {
+        -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(255, 255, 255, .4), inset 0px 0px 0px 55px rgba(255, 255, 255, 0.35);
+    }
+    100% {
+        -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(255, 255, 255, 0), inset 0px 0px 0px 55px rgba(255, 255, 255, 0);
+    }
+}
+
+@-moz-keyframes Light {
+    0% {
+        -moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(255, 255, 255, 0), inset 0px 0px 0px 55px rgba(255, 255, 255, 0);
+    }
+    50% {
+        -moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(255, 255, 255, .4), inset 0px 0px 0px 55px rgba(255, 255, 255, 0.35);
+    }
+    100% {
+        -moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(255, 255, 255, 0), inset 0px 0px 0px 55px rgba(255, 255, 255, 0);
+    }
+}
+
+@-o-keyframes Light {
+    0% {
+        -o-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(255, 255, 255, 0), inset 0px 0px 0px 55px rgba(255, 255, 255, 0);
+    }
+    50% {
+        -o-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(255, 255, 255, .4), inset 0px 0px 0px 55px rgba(255, 255, 255, 0.35);
+    }
+    100% {
+        -o-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(255, 255, 255, 0), inset 0px 0px 0px 55px rgba(255, 255, 255, 0);
+    }
+}
+
+@keyframes Light {
+    0% {
+        box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(255, 255, 255, 0), inset 0px 0px 0px 55px rgba(255, 255, 255, 0);
+    }
+    50% {
+        box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(255, 255, 255, .4), inset 0px 0px 0px 55px rgba(255, 255, 255, 0.35);
+    }
+    100% {
+        box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35), 0px 1px 1px 0px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(255, 255, 255, 0), inset 0px 0px 0px 55px rgba(255, 255, 255, 0);
+    }
+}
+
+a.btnx:active {
+    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.45), 0px 1px 0px 0px rgba(255, 255, 255, 0.3), inset 0px 0px 0px 55px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.45), 0px 1px 0px 0px rgba(255, 255, 255, 0.3), inset 0px 0px 0px 55px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.45), 0px 1px 0px 0px rgba(255, 255, 255, 0.3), inset 0px 0px 0px 55px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.45), 0px 1px 0px 0px rgba(255, 255, 255, 0.3), inset 0px 0px 0px 55px rgba(0, 0, 0, 0.2);
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+
+a.btnx.an_top {
+    top: 0px;
+    -webkit-transition: top 400ms linear;
+    -moz-transition: top 400ms linear;
+    -o-transition: top 400ms linear;
+    -ms-transition: top 400ms linear;
+    transition: top 400ms linear;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+
+a.btnx.an_top:hover {
+    top: -5px;
+    -webkit-transition: top 400ms linear;
+    -moz-transition: top 400ms linear;
+    -o-transition: top 400ms linear;
+    -ms-transition: top 400ms linear;
+    transition: top 400ms linear;
+}
+
+a.btnx.an_bottom {
+    top: 0px;
+    -webkit-transition: top 400ms linear;
+    -moz-transition: top 400ms linear;
+    -o-transition: top 400ms linear;
+    transition: top 400ms linear;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+
+a.btnx.an_bottom:hover {
+    top: 5px;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+a.btnx.an_circle_rounded {
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 10%;
+    -webkit-transition: -webkit-border-radius 400ms linear;
+    -moz-transition: -moz-border-radius 400ms linear;
+    -o-transition: border-radius 400ms linear;
+    -ms-transition: -ms-border-radius 400ms linear;
+    transition: border-radius 400ms linear;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+
+a.btnx.an_circle_rounded:hover {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: -webkit-border-radius 400ms linear;
+    -moz-transition: -moz-border-radius 400ms linear;
+    -o-transition: border-radius 400ms linear;
+    -ms-transition: -ms-border-radius 400ms linear;
+    transition: border-radius 400ms linear;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+
+a.btnx.an_circle_square {
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    border-radius: 0%;
+    -webkit-transition: -webkit-border-radius 400ms linear;
+    -moz-transition: -moz-border-radius 400ms linear;
+    -o-transition: border-radius 400ms linear;
+    -ms-transition: -ms-border-radius 400ms linear;
+    transition: border-radius 400ms linear;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+
+a.btnx.an_circle_square:hover {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: -webkit-border-radius 400ms linear;
+    -moz-transition: -moz-border-radius 400ms linear;
+    -o-transition: border-radius 400ms linear;
+    -ms-transition: -ms-border-radius 400ms linear;
+    transition: border-radius 400ms linear;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+
+a.btnx.an_square {
+    -webkit-transition: -webkit-border-radius 400ms linear;
+    -moz-transition: -moz-border-radius 400ms linear;
+    -o-transition: border-radius 400ms linear;
+    -ms-transition: -ms-border-radius 400ms linear;
+    transition: border-radius 400ms linear;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+
+a.btnx.an_square:hover {
+    border-radius: 0%;
+    -webkit-transition: -webkit-border-radius 400ms linear;
+    -moz-transition: -moz-border-radius 400ms linear;
+    -o-transition: border-radius 400ms linear;
+    -ms-transition: -ms-border-radius 400ms linear;
+    transition: border-radius 400ms linear;
+}
+
+a.btnx.an_bgchange {
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+}
+
+a.btnx.an_bgchange:hover {
+    background-color: #a2a2a2;
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+
+a.btnx2:hover, li:hover .btnx2, li:hover .btnx {
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+a.btnx2.dark:hover, li:hover .btnx2.dark {
+    background-color: #2b2b2b;
+}
+
+a.btnx2.blue:hover, li:hover .btnx2.blue {
+    background-color: #1f5f79;
+}
+
+a.btnx2.clear:hover, li:hover .btnx2.clear {
+    background-color: #666666;
+}
+
+a.btnx2.border_black:hover, li:hover .btnx2.border_black {
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+a.btnx2.border_white:hover, li:hover .btnx2.border_white {
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+a.btnx2.transparent:hover, li:hover .btnx2.transparent {
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+a.btnx2.plus:hover {
+    background-color: #812b21;
+}
+
+a.btnx2.twitter:hover {
+    background-color: #277b9e;
+}
+
+a.btnx2.facebook:hover {
+    background-color: #2a476f;
+}
+
+a.btnx2.rss:hover {
+    background-color: #a75e10;
+}
+
+a.btnx2.bebo:hover {
+    background-color: #6e1e1e;
+}
+
+a.btnx2.blogger:hover {
+    background-color: #79421d;
+}
+
+a.btnx2.dA:hover {
+    background-color: #2c4133;
+}
+
+a.btnx2.digg:hover {
+    background-color: #163b59;
+}
+
+a.btnx2.dribble:hover {
+    background-color: #a14d69;
+}
+
+a.btnx2.flickr:hover {
+    background-color: #c6c6c6;
+}
+
+a.btnx2.lastfm:hover {
+    background-color: #7f1c1b;
+}
+
+a.btnx2.yahoo:hover {
+    background-color: #481b5d;
+}
+
+a.btnx2.pinterest:hover {
+    background-color: #721015;
+}
+
+a.btnx2.vimeo:hover {
+    background-color: #295b78;
+}
+
+a.btnx2.linkedin:hover {
+    background-color: #275670;
+}
+
+a.btnx2.skype:hover {
+    background-color: #5494ad;
+}
+
+a.btnx2.myspace:hover {
+    background-color: #093058;
+}
+
+a.btnx2.wordpress:hover {
+    background-color: #171616;
+}
+
+a.btnx2.tumblr:hover {
+    background-color: #37404c;
+}
+
+a.btnx2.stumbleupon:hover {
+    background-color: #9e3b2d;
+}
+
+a.btnx2.youtube:hover {
+    background-color: #ababab;
+}
+
+a.btnx2.white:hover {
+    background-color: #999999;
+}
+
+a.btnx2.black:hover {
+    background-color: #000000;
+}
+
+a.btnx2.aloe:hover {
+    background-color: #446258;
+}
+
+a.btnx2.pool:hover {
+    background-color: #5c7470;
+}
+
+a.btnx2.jadite:hover {
+    background-color: #447762;
+}
+
+a.btnx2.emerald:hover {
+    background-color: #00613a;
+}
+
+a.btnx2.hunter:hover {
+    background-color: #043b16;
+}
+
+a.btnx2.olive:hover {
+    background-color: #464a21;
+}
+
+a.btnx2.grass:hover {
+    background-color: #497427;
+}
+
+a.btnx2.apple:hover {
+    background-color: #49611c;
+}
+
+a.btnx2.leaf:hover {
+    background-color: #586229;
+}
+
+a.btnx2.chartreuse:hover {
+    background-color: #687310;
+}
+
+a.btnx2.sourapple:hover {
+    background-color: #756e00;
+}
+
+a.btnx2.saffron:hover {
+    background-color: #98701c;
+}
+
+a.btnx2.mustard:hover {
+    background-color: #896c23;
+}
+
+a.btnx2.tangerine:hover {
+    background-color: #905613;
+}
+
+a.btnx2.ginger:hover {
+    background-color: #894313;
+}
+
+a.btnx2.dahlia:hover {
+    background-color: #923a35;
+}
+
+a.btnx2.coral:hover {
+    background-color: #935041;
+}
+
+a.btnx2.pink:hover {
+    background-color: #8f575d;
+}
+
+a.btnx2.hotpink:hover {
+    background-color: #91415e;
+}
+
+a.btnx2.azalea:hover {
+    background-color: #7d364e;
+}
+
+a.btnx2.rose:hover {
+    background-color: #91464a;
+}
+
+a.btnx2.passion:hover {
+    background-color: #744153;
+}
+
+a.btnx2.raspberry:hover {
+    background-color: #782c39;
+}
+
+a.btnx2.fucshia:hover {
+    background-color: #8e285c;
+}
+
+a.btnx2.scarlet:hover {
+    background-color: #8a0f22;
+}
+
+a.btnx2.cherry:hover {
+    background-color: #6d0b10;
+}
+
+a.btnx2.claret:hover {
+    background-color: #60021d;
+}
+
+a.btnx2.eggplant:hover {
+    background-color: #34002f;
+}
+
+a.btnx2.raisin:hover {
+    background-color: #4c0843;
+}
+
+a.btnx2.plum:hover {
+    background-color: #5e0035;
+}
+
+a.btnx2.berry:hover {
+    background-color: #612747;
+}
+
+a.btnx2.grape:hover {
+    background-color: #54464f;
+}
+
+a.btnx2.lavender:hover {
+    background-color: #6d596b;
+}
+
+a.btnx2.lavenderrose:hover {
+    background-color: #80586c;
+}
+
+a.btnx2.aqua:hover {
+    background-color: #5e767a;
+}
+
+a.btnx2.pond:hover {
+    background-color: #44686d;
+}
+
+a.btnx2.lake:hover {
+    background-color: #314e57;
+}
+
+a.btnx2.majollica:hover {
+    background-color: #012c3d;
+}
+
+a.btnx2.navy:hover {
+    background-color: #002d55;
+}
+
+a.btnx2.denim:hover {
+    background-color: #234356;
+}
+
+a.btnx2.ocean:hover {
+    background-color: #004059;
+}
+
+a.btnx2.lagoon:hover {
+    background-color: #01648a;
+}
+
+a.btnx2.turquoise:hover {
+    background-color: #1a7182;
+}
+
+a.btnx2.steelblue:hover {
+    background-color: #4d626e;
+}
+
+a.btnx2.mediumblue:hover {
+    background-color: #2f5372;
+}
+
+a.btnx2.slate:hover {
+    background-color: #4f5559;
+}
+
+a.btnx2.graphite:hover {
+    background-color: #393a3b;
+}
+
+a.btnx2.bark:hover {
+    background-color: #34280f;
+}
+
+a.btnx2.mocha:hover {
+    background-color: #3a220c;
+}
+
+a.btnx2.sepia:hover {
+    background-color: #554026;
+}
+
+a.btnx2.brownsugar:hover {
+    background-color: #715b49;
+}
+
+a.btnx2.taupe:hover {
+    background-color: #6e6b59;
+}
+
+a.btnx2:active {
+    -webkit-box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.8), 0px 1px 1px 0px rgba(255, 255, 255, 0.4);
+    -moz-box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.8), 0px 1px 1px 0px rgba(255, 255, 255, 0.4);
+    -o-box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.8), 0px 1px 1px 0px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.8), 0px 1px 1px 0px rgba(255, 255, 255, 0.4);
+}
+
+a.btnx2.border_black:active {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.6);
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.6);
+}
+
+a.btnx2.border_white:active {
+    top: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.6);
+}
+
+a.btnx2.transparent:active {
+    top: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}

@@ -1,5 +1,340 @@
-footer{
+footer {
     border: none;
-    -webkit-box-shadow: 0 -1px 2px rgba(0,0,0,0.3);
-    box-shadow: 0 -1px 2px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.3);
 }
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+ul.footer {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0% 2%;
+}
+
+.sx {
+    float: left;
+    margin-top: 0px;
+}
+
+.dx {
+    float: right;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+ul.footer.l {
+    height: 55px;
+    line-height: 55px;
+    padding-top: 24px;
+    padding-bottom: 26px;
+}
+
+ul.footer.m {
+    height: 45px;
+    line-height: 45px;
+    padding-top: 19px;
+    padding-bottom: 21px;
+}
+
+ul.footer.s {
+    height: 40px;
+    padding: 8px 0 0 0;
+}
+
+ul.footer li {
+    position: relative;
+}
+
+ul.footer > li:hover > ul {
+    bottom: 100%;
+}
+
+ul.footer li ul {
+    display: none;
+    list-style-type: none;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+ul.footer li:hover ul {
+    display: block;
+    position: absolute;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+    padding: 0;
+}
+
+ul.footer li:hover ul li {
+    padding-bottom: 2px;
+}
+
+.footer li:hover ul.fade-down {
+    -webkit-animation: fade-down 1s 1;
+    -moz-animation: fade-down 1s 1;
+    animation: fade-down 1s 1;
+}
+
+@-webkit-keyframes fade-down {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+
+}
+
+@-moz-keyframes fade-down {
+    0% {
+        opacity: 0;
+        -moz-transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: translateY(0%);
+    }
+
+}
+
+@keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+
+    }
+
+}
+
+.footer li:hover ul.fade-up {
+    -webkit-animation: fade-up 1s 1;
+    -moz-animation: fade-up 1s 1;
+    animation: fade-up 1s 1;
+}
+
+@-webkit-keyframes fade-up {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@-moz-keyframes fade-up {
+    0% {
+        opacity: 0;
+        -moz-transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: translateY(0%);
+    }
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.footer li:hover ul.fade_left {
+    -webkit-animation: fade_left 1s 1;
+    -moz-animation: fade_left 1s 1;
+    animation: fade_left 1s 1;
+}
+
+@-webkit-keyframes fade_left {
+    0% {
+        -webkit-transform: translateX(-30px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fade_left {
+    0% {
+        -moz-transform: translateX(-30px);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes fade_left {
+    0% {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.footer li:hover ul.fade_right {
+    -webkit-animation: fade_right 1s 1;
+    -moz-animation: fade_right 1s 1;
+    animation: fade_right 1s 1;
+}
+
+@-webkit-keyframes fade_right {
+    0% {
+        -webkit-transform: translateX(30px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fade_right {
+    0% {
+        -moz-transform: translateX(30px);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes fade_right {
+    0% {
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.footer li:hover ul.rotation li {
+    -webkit-animation: rotation 1s 1;
+    -moz-animation: rotation 1s 1;
+    animation: rotation 1s 1;
+}
+
+@-webkit-keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes rotation {
+    0% {
+        -moz-transform: rotate(0deg);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
+ul.footer.gradient-blue {
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(0, 132, 157, 0.6);
+    -moz-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(0, 132, 157, 0.6);
+    -o-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(0, 132, 157, 0.6);
+    box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(0, 132, 157, 0.6);
+    color: #ffffff;
+    background: #32d1ef;
+    background: -moz-linear-gradient(top, #32d1ef 0%, #1bbad9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #32d1ef), color-stop(100%, #1bbad9));
+    background: -webkit-linear-gradient(top, #32d1ef 0%, #1bbad9 100%);
+    background: -o-linear-gradient(top, #32d1ef 0%, #1bbad9 100%);
+    background: -ms-linear-gradient(top, #32d1ef 0%, #1bbad9 100%);
+    background: linear-gradient(to bottom, #32d1ef 0%, #1bbad9 100%);
+}
+
+ul.footer.gradient-dark {
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    background: #5d5d5d;
+    background: -moz-linear-gradient(top, #5d5d5d 0%, #14191e 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5d5d5d), color-stop(100%, #14191e));
+    background: -webkit-linear-gradient(top, #5d5d5d 0%, #14191e 100%);
+    background: -o-linear-gradient(top, #5d5d5d 0%, #14191e 100%);
+    background: -ms-linear-gradient(top, #5d5d5d 0%, #14191e 100%);
+    background: linear-gradient(to bottom, #5d5d5d 0%, #14191e 100%);
+}
+
+ul.footer.gradient-clear {
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(128, 128, 128, 0.6);
+    -moz-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(128, 128, 128, 0.6);
+    -o-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(128, 128, 128, 0.6);
+    box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(128, 128, 128, 0.6);
+    color: #000000;
+    background: #f5f5f5;
+    background: -moz-linear-gradient(top, #f5f5f5 0%, #cacaca 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #cacaca));
+    background: -webkit-linear-gradient(top, #f5f5f5 0%, #cacaca 100%);
+    background: -o-linear-gradient(top, #f5f5f5 0%, #cacaca 100%);
+    background: -ms-linear-gradient(top, #f5f5f5 0%, #cacaca 100%);
+    background: linear-gradient(to bottom, #f5f5f5 0%, #cacaca 100%);
+}
+
+ul.footer.gradient-white {
+    background: #fff;
+    color: #000000;
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(128, 128, 128, 0.4);
+    -moz-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(128, 128, 128, 0.4);
+    -o-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(128, 128, 128, 0.4);
+    box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.6), 0px -2px 0px 0px rgba(128, 128, 128, 0.4);
+}
+
+ul.footer.gradient-holo {
+    background-color: #242424;
+    color: #ffffff;
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.2), 0px -2px 0px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.2), 0px -2px 0px 0px rgba(0, 0, 0, 1);
+    -o-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.2), 0px -2px 0px 0px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.2), 0px -2px 0px 0px rgba(0, 0, 0, 1);
+}
+/*http://nowtheme.com/2013/05/css-snippets-for-web-developers/*/
