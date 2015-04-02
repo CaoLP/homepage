@@ -356,3 +356,23 @@ ul.footer.gradient-holo {
     margin-top: -10px;
     height: 40px;
 }
+#partner-list, #friends-list {
+    bottom: 35px;
+    position: fixed;
+    padding: 15px 0 35px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+#partner-list li, #sliderPartner-list li {
+    display: inline;
+    margin: 0;
+    padding: 28px;
+}
+#partner-list li a, #sliderPartner-list li a {
+    display: inline-block;
+    padding: 10px 0;
+}
+#partner-list li img, #sliderPartner-list li img {
+    vertical-align: middle;
+}
