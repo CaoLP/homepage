@@ -2,6 +2,11 @@ footer {
     border: none;
     -webkit-box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.3);
+    background: url('../images/footer.jpg') repeat-x scroll 0 0 #085a79;
+    color: #51B6DC;
+    padding-top: 19px;
+    height: 70px;
+    text-transform: uppercase;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
@@ -12,7 +17,14 @@ ul.footer {
     font-size: 15px;
     padding: 0% 2%;
 }
-
+.footer .left a {
+    padding-left: 10px;
+    border-left: 1px solid #78a6b6;
+    margin-left: 10px;
+    color: #51b6dc;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 .sx {
     float: left;
     margin-top: 0px;
@@ -338,3 +350,9 @@ ul.footer.gradient-holo {
     box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.2), 0px -2px 0px 0px rgba(0, 0, 0, 1);
 }
 /*http://nowtheme.com/2013/05/css-snippets-for-web-developers/*/
+
+
+.logo{
+    margin-top: -10px;
+    height: 40px;
+}
