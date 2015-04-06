@@ -1,11 +1,16 @@
+body{
+    background: url(http://ui-cloud.com/res/pixelsdaily/CSS-Windows-8-Metro-Buttons/demo/images/bg.png) #1d1d1d no-repeat top right;
+}
 footer {
     border: none;
     -webkit-box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.3);
-    background: url('../images/footer.jpg') repeat-x scroll 0 0 #085a79;
+    /*background: url('../images/footer.jpg') repeat-x scroll 0 0 #085a79;*/
+    /*color: #51B6DC;*/
     color: #51B6DC;
-    padding-top: 19px;
-    height: 70px;
+    background-color: #2D87EF;
+    /*padding-top: 19px;*/
+    height: 49px;
     text-transform: uppercase;
 }
 
@@ -296,10 +301,10 @@ ul.footer li:hover ul li {
 .customers{
     position: fixed;
     width: 100%;
-    bottom: 30px;
+    bottom: 10px;
 }
 .inner{
-    width: 90%;
+    /*width: 90%;*/
     margin: 0 auto;
 }
 .slick-slider {
@@ -390,12 +395,24 @@ ul.footer li:hover ul li {
     background: transparent;
 }
 .slick-next {
-   background: url("../images/thin_right_arrow_333.png") 0 0 no-repeat;
-    right: 0;
+    background: url("../images/thin_right_arrow_333.png") 0 0 no-repeat;
+    background-position: 5px 0px;
+    right: 30px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
 }
 .slick-prev {
     background: url("../images/thin_left_arrow_333.png") 0 0 no-repeat;
+    background-position: 2px 0px;
     left: 0;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
 }
 
 
@@ -509,7 +526,6 @@ ul.footer li:hover ul li {
 
 
 .contents{
-    height: 65vh;
     overflow: hidden;
     margin-bottom: 0px;
 }
@@ -521,7 +537,6 @@ ul.footer li:hover ul li {
     padding-top: 0;
 }
 .info{
-    height: 34.8vh;
     margin-bottom: 8px;
 }
 .info .panel-heading{
@@ -536,10 +551,8 @@ ul.footer li:hover ul li {
 }
 .info .thumbnail{
     margin-bottom: 0;
-    height: 27.5vh;
 }
 .info .thumbnail img{
-    height: 26vh;
     width: 100%;
 }
 .news{
@@ -569,19 +582,26 @@ ul.footer li:hover ul li {
     border-right: 1px solid #989898;
     display: inline-block;
 }
+.news .news-list-item{
+    padding-left: 0px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
 .news .media {
     margin-top: 0px;
 }
 .news .media-heading {
     height: 30px;
     overflow: hidden;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
 }
 .news .media-object {
     float: left;
     margin-right: 5px;
 }
 .customers-reply {
-    height: 48vh;
     overflow: auto;
 }
 .customers-reply .media-object{
@@ -611,7 +631,6 @@ ul.footer li:hover ul li {
     padding: 0px;
 }
 div.tab-pane {
-    height: 27vh;
     overflow: auto;
     padding-left: 15px;
     border-left: 1px solid #ddd;
@@ -626,14 +645,35 @@ div.tab-pane {
     margin-bottom: 0;
 }
 .navbar.navbar-default.navbar-static-top {
-    margin-bottom: 5px;
+    margin-bottom: 30px;
 }
 .body{
     /*position: fixed;*/
 }
+@media (min-width: 992px) {
+    div.tab-pane {
+        height: 27vh;
+    }
+    .customers-reply {
+        height: 48vh;
+    }
+    .info .thumbnail img{
+        height: 26vh;
+    }
+    .info .thumbnail{
+        height: 27.5vh;
+    }
+    .info{
+        height: 34.8vh;
+    }
+    .contents{
+        height: 65vh;
+    }
+}
 
 .navbar-default {
-    background-color: #26B7DF;
+    /*background-color: #26B7DF;*/
+    background-color: #2d87ef;
     border-color: transparent;
 }
 .navbar-default .navbar-nav > li > a {

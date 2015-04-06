@@ -1,7 +1,7 @@
 /**
  * Created by LePhan on 4/4/15.
  */
-$(function(){
+$(function () {
     $('.center').slick({
         centerMode: true,
         centerPadding: '20px',
@@ -29,22 +29,54 @@ $(function(){
     });
 
 
+    if ($(window).width() >= 992) {
+        var myheight = $(window).height();
+        var fixedsize = myheight - (51 + 130 + 54);
+        $('.contents').height(fixedsize);
+        var itemheight = fixedsize - 79;
+        $('.contents .customers-reply').height(itemheight);
 
-    var myheight = $(window).height();
+        var h_info = fixedsize * (2 / 3) - 8;
+        var h_news = fixedsize * (1 / 3);
+        $('.info').height(h_info);
+        $('.news').height(h_news);
+        $('div.tab-pane').height(h_info - 48);
+        $('.news .parent').height(h_news - 18);
+    }else{
+        $('.contents').height('auto');
+        $('.contents .customers-reply').height('auto');
+        $('.info').height('auto');
+        $('.news').height('auto');
+        $('div.tab-pane').height('auto');
+        $('.news .parent').height('auto');
+    }
 
-    var fullw = 0;
 
-    $('.news .list-item').each(function(){
-        fullw+= $(this).width() + 15;
+    $(window).resize(function () {
+        if ($(window).width() >= 992) {
+            var myheight = $(window).height();
+            var fixedsize = myheight - (51 + 130 + 54);
+            $('.contents').height(fixedsize);
+            var itemheight = fixedsize - 79;
+            $('.contents .customers-reply').height(itemheight);
+
+            var h_info = fixedsize * (2 / 3) - 8;
+            var h_news = fixedsize * (1 / 3);
+            $('.info').height(h_info);
+            $('.news').height(h_news);
+            $('div.tab-pane').height(h_info - 48);
+            $('.news .parent').height(h_news - 18);
+        }else{
+            $('.contents').height('auto');
+            $('.contents .customers-reply').height('auto');
+            $('.info').height('auto');
+            $('.news').height('auto');
+            $('div.tab-pane').height('auto');
+            $('.news .parent').height('auto');
+        }
     });
-    $('.news .list').width(fullw);
-
-    var fixedsize = myheight - (51 + 130 + 64);
-    $('.contents').height(fixedsize);
-    var itemheight = fixedsize - 79;
-    $('.contents .customers-reply').height(itemheight);
-    var heightinfo = fixedsize - $('.news').height() - 8;
-    $('.info').height(heightinfo);
+    //var heightinfo = fixedsize - $('.news').height() - 8;
+//    $('.info').height(heightinfo);
 
     var pageflip = new RocketPageFlip('.pageflip', {
         current: 0,
