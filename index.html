@@ -11,481 +11,531 @@
     <meta name="keywords" content="Sample sample sample sample sample sample sample sample sample sample sample sample">
     <meta name="author" content="caolp">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/site.min.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
     <link href="css/social-buttons.min.css" rel="stylesheet">
     <link href="css/pageflip.css" rel="stylesheet">
 </head>
 <body>
-<div role="navigation" class="navbar navbar-default navbar-static-top">
+<div role="navigation" class="navbar navbar-default navbar-custom">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span
-                    class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span
-                    class="icon-bar"></span></button>
-            <a href="/" class="navbar-brand"><img class="logo" src="images/logo.png"></a></div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right visible-md visible-lg">
-                <li><a href="#">Menu 1</a></li>
-                <li><a href="#">Menu 2</a></li>
-                <li><a href="#">Menu 3</a></li>
-                <li><a href="#">Menu 4</a></li>
-                <li><a href="#">Menu 5</a></li>
-                <li><a href="#">Menu 6</a></li>
-                <li><a href="#">Menu 7</a></li>
-                <li id="extras" class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Menu 8&nbsp;<i
-                        class="fa fa-caret-down"></i></a>
-                    <ul role="menu" class="dropdown-menu">
-                        <li><a href="#">Sub menu 1</a></li>
-                        <li><a href="#">Sub menu 2</a></li>
-                        <li><a href="#">Sub menu 3</a></li>
-                        <li><a href="#">Sub menu 4</a></li>
-                        <li><a href="#">Sub menu 5</a></li>
-                        <li><a href="#">Sub menu 6</a></li>
-                        <li><a href="#">Sub menu 7</a></li>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
+                    class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
+                    class="icon-bar"></span> <span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" height="40"></a></div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="nav-link current" href="#">Giới thiệu</a></li>
+                <li><a class="nav-link" href="#">Tin tức</a></li>
+                <li class="dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sản phẩm <b
+                        class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li class="dropdown-header">Sản phẩm</li>
+                        <li><a href="#">Pharmasoft</a></li>
+                        <li><a href="#">Enter ERP</a></li>
+                        <li><a href="#">Enter Account</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false">Menu
-                    9&nbsp;<i
-                            class="fa fa-caret-down"></i></a>
-                    <ul role="menu" class="dropdown-menu dropdown-menu-right">
-                        <li><a href="#">Sub menu 1</a></li>
-                        <li><a href="#">Sub menu 2</a></li>
-                        <li><a href="#">Sub menu 3</a></li>
-                        <li><a href="#">Sub menu 4</a></li>
-                        <li><a href="#">Sub menu 5</a></li>
-                        <li><a href="#">Sub menu 6</a></li>
-                        <li><a href="#">Sub menu 7</a></li>
+                <li class="dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Đăng ký <b
+                        class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li class="dropdown-header">Đăng ký</li>
+                        <li><a href="#">Web Form</a></li>
+                        <li><a href="#">Windows Form</a></li>
                     </ul>
                 </li>
+                <li><a class="nav-link" href="#">Khách hàng</a></li>
+                <li><a class="nav-link" href="#">Tuyển dụng</a></li>
+                <li><a class="nav-link" href="#">Liên hệ</a></li>
+
             </ul>
         </div>
     </div>
 </div>
 <div class="container-fluid body">
 <div class="col-md-8">
-    <div class="panel info">
-        <div class="panel-heading">
-            <h6>Thông tin sản phẩm</h6>
+<div class="panel panel-primary info">
+    <div class="panel-heading">
+        <h6>Thông tin sản phẩm</h6>
+    </div>
+    <div class="panel-body">
+        <div class="col-md-4 preview">
+            <a href="#" class="thumbnail">
+                <img src="http://placehold.it/500x500" alt="">
+            </a>
         </div>
-        <div class="panel-body">
-            <div class="col-md-4 preview">
-                <a href="#" class="thumbnail">
-                    <img src="http://placehold.it/500x500" alt="">
-                </a>
+        <div class="col-lg-8 product-contains">
+            <!-- tabs left -->
+            <div class="tabbable tabs-left">
+                <ul class="nav nav-tabs light">
+                    <li class="active"><a href="#a" data-toggle="tab">One</a></li>
+                    <li><a href="#b" data-toggle="tab">Two</a></li>
+                    <li><a href="#c" data-toggle="tab">Twee</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="a">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                    <div class="tab-pane" id="b">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibu55688778798ea7sd98a7sd98a7sd98as7d98as7 9a8sd7 a98sd7lum in
+                        vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                    <div class="tab-pane" id="c">
+                        Cras sit amet nibh libero, in grava3122222222223a2s1d3a2s1d3a2s1d3a2s1dida nulla. Nulla vel
+                        metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                        condimentum
+                        nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-8 product-contains">
-                <!-- tabs left -->
-                <div class="tabbable tabs-left">
-                    <ul class="nav nav-tabs">
-                        <li class="active"><a href="#a" data-toggle="tab">One</a></li>
-                        <li><a href="#b" data-toggle="tab">Two</a></li>
-                        <li><a href="#c" data-toggle="tab">Twee</a></li>
-                    </ul>
-                    <div class="tab-content">
-                        <div class="tab-pane active" id="a">
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <div class="tab-pane" id="b">
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibu55688778798ea7sd98a7sd98a7sd98as7d98as7 9a8sd7 a98sd7lum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <div class="tab-pane" id="c">
-                            Cras sit amet nibh libero, in grava3122222222223a2s1d3a2s1d3a2s1d3a2s1dida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin
-                            commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                            condimentum
-                            nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            <!-- /tabs -->
+        </div>
+    </div>
+</div>
+<div class="panel news">
+    <div class="panel-body">
+        <div class="parent">
+            <div class="list">
+                <div class="col-md-6 news-list-item">
+                    <div class="media">
+                        <div class="media-body">
+                            <a href="#">
+                                <img class="media-object" src="images/PHTD.png" width="40" alt="">
+                            </a>
+
+                            <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ
+                                PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD
+                            </div>
+                            <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                                ante...</p>
                         </div>
                     </div>
                 </div>
-                <!-- /tabs -->
+                <div class="col-md-6 news-list-item">
+                    <div class="media">
+                        <div class="media-body">
+                            <a href="#">
+                                <img class="media-object" src="images/PHTD.png" width="40" alt="">
+                            </a>
+
+                            <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ
+                                PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD
+                            </div>
+                            <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                                ante...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 news-list-item">
+                    <div class="media">
+                        <div class="media-body">
+                            <a href="#">
+                                <img class="media-object" src="images/PHTD.png" width="40" alt="">
+                            </a>
+
+                            <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ
+                                PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD
+                            </div>
+                            <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                                ante...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 news-list-item">
+                    <div class="media">
+                        <div class="media-body">
+                            <a href="#">
+                                <img class="media-object" src="images/PHTD.png" width="40" alt="">
+                            </a>
+
+                            <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ
+                                PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD
+                            </div>
+                            <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                                ante...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 news-list-item">
+                    <div class="media">
+                        <div class="media-body">
+                            <a href="#">
+                                <img class="media-object" src="images/PHTD.png" width="40" alt="">
+                            </a>
+
+                            <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ
+                                PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD
+                            </div>
+                            <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                                ante...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 news-list-item">
+                    <div class="media">
+                        <div class="media-body">
+                            <a href="#">
+                                <img class="media-object" src="images/PHTD.png" width="40" alt="">
+                            </a>
+
+                            <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ
+                                PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD
+                            </div>
+                            <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                                ante...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 news-list-item">
+                    <div class="media">
+                        <div class="media-body">
+                            <a href="#">
+                                <img class="media-object" src="images/PHTD.png" width="40" alt="">
+                            </a>
+
+                            <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ
+                                PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD
+                            </div>
+                            <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                                ante...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 news-list-item">
+                    <div class="media">
+                        <div class="media-body">
+                            <a href="#">
+                                <img class="media-object" src="images/PHTD.png" width="40" alt="">
+                            </a>
+
+                            <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ
+                                PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD
+                            </div>
+                            <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                                ante...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 news-list-item">
+                    <div class="media">
+                        <div class="media-body">
+                            <a href="#">
+                                <img class="media-object" src="images/PHTD.png" width="40" alt="">
+                            </a>
+
+                            <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ
+                                PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD
+                            </div>
+                            <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                                ante...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 news-list-item">
+                    <div class="media">
+                        <div class="media-body">
+                            <a href="#">
+                                <img class="media-object" src="images/PHTD.png" width="40" alt="">
+                            </a>
+
+                            <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ
+                                PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD
+                            </div>
+                            <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                                ante...</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="panel news">
-        <div class="panel-body">
-         <div class="parent">
-             <div class="list">
-                 <div class="col-md-6 news-list-item">
-                     <div class="media">
-                         <div class="media-body">
-                             <a href="#">
-                                 <img class="media-object" src="images/PHTD.png" width="40" alt="">
-                             </a>
-                             <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD</div>
-                             <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante...</p>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-6 news-list-item">
-                     <div class="media">
-                         <div class="media-body">
-                             <a href="#">
-                                 <img class="media-object" src="images/PHTD.png" width="40" alt="">
-                             </a>
-                             <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD</div>
-                             <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante...</p>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-6 news-list-item">
-                     <div class="media">
-                         <div class="media-body">
-                             <a href="#">
-                                 <img class="media-object" src="images/PHTD.png" width="40" alt="">
-                             </a>
-                             <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD</div>
-                             <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante...</p>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-6 news-list-item">
-                     <div class="media">
-                         <div class="media-body">
-                             <a href="#">
-                                 <img class="media-object" src="images/PHTD.png" width="40" alt="">
-                             </a>
-                             <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD</div>
-                             <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante...</p>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-6 news-list-item">
-                     <div class="media">
-                         <div class="media-body">
-                             <a href="#">
-                                 <img class="media-object" src="images/PHTD.png" width="40" alt="">
-                             </a>
-                             <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD</div>
-                             <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante...</p>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-6 news-list-item">
-                     <div class="media">
-                         <div class="media-body">
-                             <a href="#">
-                                 <img class="media-object" src="images/PHTD.png" width="40" alt="">
-                             </a>
-                             <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD</div>
-                             <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante...</p>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-6 news-list-item">
-                     <div class="media">
-                         <div class="media-body">
-                             <a href="#">
-                                 <img class="media-object" src="images/PHTD.png" width="40" alt="">
-                             </a>
-                             <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD</div>
-                             <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante...</p>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-6 news-list-item">
-                     <div class="media">
-                         <div class="media-body">
-                             <a href="#">
-                                 <img class="media-object" src="images/PHTD.png" width="40" alt="">
-                             </a>
-                             <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD</div>
-                             <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante...</p>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-6 news-list-item">
-                     <div class="media">
-                         <div class="media-body">
-                             <a href="#">
-                                 <img class="media-object" src="images/PHTD.png" width="40" alt="">
-                             </a>
-                             <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD</div>
-                             <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante...</p>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-6 news-list-item">
-                     <div class="media">
-                         <div class="media-body">
-                             <a href="#">
-                                 <img class="media-object" src="images/PHTD.png" width="40" alt="">
-                             </a>
-                             <div class="media-heading">ENTERSOFT CUNG CẤP VÀ TRIỂN KHAI PHẦN MỀM QUẢN LÝ CHO CÔNG TY CỔ PHẦN PHÂN PHỐI SẢN PHẨM CÔNG NGHỆ CAO DẦU KHÍ -PHTD</div>
-                             <p class="f10px">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante...</p>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-         </div>
-        </div>
-    </div>
+</div>
 </div>
 <div class="col-md-4">
-<div class="panel contents">
-<div class="panel-heading">
-    <h6>Ý kiến khách hàng</h6>
-</div>
-<div class="panel-body">
-<div class="pageflip">
-<div class="page page-current">
-    <div class="media">
-        <div class="media-body">
-            <h4 class="media-heading">Anh Vũ Tiến Đông</h4>
-            <div class="customers-reply">
-                <img class="media-object" src="images/vu_tien_dong.jpg" alt="" width="100">
-                “Trước khi hợp tác với Công ty EnterSoft, FT-Pharma đã từng hợp tác với một đối tác khác để triển khai ERP nhưng không thành công. Nguyên nhân chính trong thất bại khi triển khai ERP là khả năng thu thập thông tin, phân tích, đánh giá, tổng hợp, hợp tác và thực hiện của nhà cung cấp chưa được tốt. Đặc biệt trong ngành Dược phẩm với những yêu cầu quản lý đặc thù như: nhiều địa điểm kinh doanh cần tổng hợp số liệu, quản lý số lô, hạn dùng, hạn tái kiểm, báo cáo thời hạn sử dụng của nguyên liệu và thành phẩm, định mức nguyên liệu sử dụng theo hàm lượng và độ ẩm, quản lý doanh thu bán hàng theo khách hàng, loại khách hàng, mặt hàng, trình dược viên, khu vực . . .
-                Với đội ngũ nhân viên giàu kinh nghiệm, nhiệt tình và am hiểu sâu các nghiệp vụ trong ngành dược của EnterSoft, sau một năm triển khai, chúng tôi chính thức đưa phần mềm PharMaSoft vào sử dụng từ năm tài chính 2011. PharMaSoft là một công cụ quản lý hiệu quả giúp chúng tôi tổng hợp chính xác, kịp thời số liệu và cung cấp các báo cáo phân tích là cơ sở cho việc ra quyết định của chúng tôi trong quản lý kinh doanh một cách nhanh chóng, kịp thời và hiệu quả.”
+    <div class="panel panel-primary contents">
+        <div class="panel-heading">
+            <h6>Ý kiến khách hàng</h6>
+        </div>
+        <div class="panel-body">
+            <div class="pageflip">
+                <div class="page page-current">
+                    <div class="media">
+                        <div class="media-body">
+                            <h4 class="media-heading">Anh Vũ Tiến Đông</h4>
+
+                            <div class="customers-reply">
+                                <img class="media-object" src="images/vu_tien_dong.jpg" alt="" width="100">
+                                “Trước khi hợp tác với Công ty EnterSoft, FT-Pharma đã từng hợp tác với một đối tác khác
+                                để triển khai ERP nhưng không thành công. Nguyên nhân chính trong thất bại khi triển
+                                khai ERP là khả năng thu thập thông tin, phân tích, đánh giá, tổng hợp, hợp tác và thực
+                                hiện của nhà cung cấp chưa được tốt. Đặc biệt trong ngành Dược phẩm với những yêu cầu
+                                quản lý đặc thù như: nhiều địa điểm kinh doanh cần tổng hợp số liệu, quản lý số lô, hạn
+                                dùng, hạn tái kiểm, báo cáo thời hạn sử dụng của nguyên liệu và thành phẩm, định mức
+                                nguyên liệu sử dụng theo hàm lượng và độ ẩm, quản lý doanh thu bán hàng theo khách hàng,
+                                loại khách hàng, mặt hàng, trình dược viên, khu vực . . .
+                                Với đội ngũ nhân viên giàu kinh nghiệm, nhiệt tình và am hiểu sâu các nghiệp vụ trong
+                                ngành dược của EnterSoft, sau một năm triển khai, chúng tôi chính thức đưa phần mềm
+                                PharMaSoft vào sử dụng từ năm tài chính 2011. PharMaSoft là một công cụ quản lý hiệu quả
+                                giúp chúng tôi tổng hợp chính xác, kịp thời số liệu và cung cấp các báo cáo phân tích là
+                                cơ sở cho việc ra quyết định của chúng tôi trong quản lý kinh doanh một cách nhanh
+                                chóng, kịp thời và hiệu quả.”
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page">
+                    <div class="media">
+                        <div class="media-body">
+                            <h4 class="media-heading">Mr. Sample</h4>
+
+                            <div class="customers-reply">
+                                <img class="media-object" src="http://placehold.it/90x120" alt="">
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page">
+                    <div class="media">
+                        <div class="media-body">
+                            <h4 class="media-heading">Mr. Sample</h4>
+
+                            <div class="customers-reply">
+                                <img class="media-object" src="http://placehold.it/90x120" alt="">
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page">
+                    <div class="media">
+                        <div class="media-body">
+                            <h4 class="media-heading">Mr. Sample</h4>
+
+                            <div class="customers-reply">
+                                <img class="media-object" src="http://placehold.it/90x120" alt="">
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page">
+                    <div class="media">
+                        <div class="media-body">
+                            <h4 class="media-heading">Mr. Sample</h4>
+
+                            <div class="customers-reply">
+                                <img class="media-object" src="http://placehold.it/90x120" alt="">
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin
+                                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum
+                                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="page">
-    <div class="media">
-        <div class="media-body">
-            <h4 class="media-heading">Mr. Sample</h4>
-            <div class="customers-reply">
-                <img class="media-object" src="http://placehold.it/90x120" alt="">
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-        </div>
-    </div>
-</div>
-<div class="page">
-    <div class="media">
-        <div class="media-body">
-            <h4 class="media-heading">Mr. Sample</h4>
-            <div class="customers-reply">
-                <img class="media-object" src="http://placehold.it/90x120" alt="">
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-        </div>
-    </div>
-</div>
-<div class="page">
-    <div class="media">
-        <div class="media-body">
-            <h4 class="media-heading">Mr. Sample</h4>
-            <div class="customers-reply">
-                <img class="media-object" src="http://placehold.it/90x120" alt="">
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-        </div>
-    </div>
-</div>
-<div class="page">
-    <div class="media">
-        <div class="media-body">
-            <h4 class="media-heading">Mr. Sample</h4>
-            <div class="customers-reply">
-                <img class="media-object" src="http://placehold.it/90x120" alt="">
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                sollicitudin
-                commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum
-                nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-</div>
 </div>
 <div class="customers">
     <div class="inner">

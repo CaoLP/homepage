@@ -31,16 +31,16 @@ $(function () {
 
     if ($(window).width() >= 992) {
         var myheight = $(window).height();
-        var fixedsize = myheight - (51 + 130 + 54);
+        var fixedsize = myheight - (80 + 130);
         $('.contents').height(fixedsize);
-        var itemheight = fixedsize - 79;
+        var itemheight = fixedsize - 84;
         $('.contents .customers-reply').height(itemheight);
 
         var h_info = fixedsize * (2 / 3) - 8;
         var h_news = fixedsize * (1 / 3);
         $('.info').height(h_info);
         $('.news').height(h_news);
-        $('div.tab-pane').height(h_info - 48);
+        $('div.tab-pane').height(h_info - 75);
         $('.news .parent').height(h_news - 18);
     }else{
         $('.contents').height('auto');
@@ -55,16 +55,16 @@ $(function () {
     $(window).resize(function () {
         if ($(window).width() >= 992) {
             var myheight = $(window).height();
-            var fixedsize = myheight - (51 + 130 + 54);
+            var fixedsize = myheight - (80 + 130);
             $('.contents').height(fixedsize);
-            var itemheight = fixedsize - 79;
+            var itemheight = fixedsize - 84;
             $('.contents .customers-reply').height(itemheight);
 
             var h_info = fixedsize * (2 / 3) - 8;
             var h_news = fixedsize * (1 / 3);
             $('.info').height(h_info);
             $('.news').height(h_news);
-            $('div.tab-pane').height(h_info - 48);
+            $('div.tab-pane').height(h_info - 75);
             $('.news .parent').height(h_news - 18);
         }else{
             $('.contents').height('auto');
