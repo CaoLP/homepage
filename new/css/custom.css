@@ -1,3 +1,30 @@
-.navbar-default{
+.navbar-default {
     background-color: #222;
+}
+
+.m-t-85 {
+    margin-top: 85px;
+}
+
+@media (min-width: 768px) {
+    header #left-slide {
+        padding-right: 0px;
+    }
+
+    header #right-slide {
+        padding-left: 0px;
+    }
+
+    header #carousel-news {
+        padding-left: 0px;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 203px;
+    }
+
+    header #carousel-customer {
+        padding-left: 0px;
+        margin-left: 8px;
+        height: 203px;
+    }
 }
