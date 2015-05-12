@@ -209,38 +209,41 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #50c1e9;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #508DE9;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #50c1e9;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #508DE9;
 }
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+        background-color: rgba(255, 255, 255, .9);
+        box-shadow: 0px 1px 19px rgba(36, 33, 33, 0.58);
     }
 
     .navbar-default .navbar-brand {
+        padding: 5px 15px;
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -252,8 +255,9 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #222;
+        padding: 5px 0;
+        background-color: rgba(255, 255, 255, .9);
+        box-shadow: 0px 1px 19px rgba(36, 33, 33, 0.58);
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -845,13 +849,15 @@ ul.social-buttons li a:active {
 }
 
 ::-moz-selection {
+    color: #ffffff;
     text-shadow: none;
-    background: #fed136;
+    background: #52bdff;
 }
 
 ::selection {
+    color: #ffffff;
     text-shadow: none;
-    background: #fed136;
+    background: #52bdff;
 }
 
 img::selection {
@@ -864,4 +870,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff ;
+    background-color: #50c1e9 ;
 }
