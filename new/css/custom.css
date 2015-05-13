@@ -5,6 +5,9 @@
 .m-t-85 {
     margin-top: 85px;
 }
+.m-t-170 {
+    margin-top: 170px;
+}
 
 @media (min-width: 768px) {
     header #left-slide {
@@ -21,10 +24,113 @@
         margin-top: 10px;
         height: 203px;
     }
-
     header #carousel-customer {
         padding-left: 0px;
         margin-left: 8px;
         height: 203px;
     }
+    div#carousel-example-generic img {
+        height: 416px;
+    }
+}
+@media screen and (min-width: 768px){
+    .carousel-indicators {
+        top: 20px;
+    }
+}
+.carousel-indicators {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    z-index: 15;
+    width: 40%;
+    padding-left: 0;
+    margin-left: 5%;
+    text-align: right;
+    list-style: none;
+}
+.carousel-indicators li{
+    border: 1px solid #508DE9;
+}
+.carousel-control {
+    opacity: 0.2;
+}
+#carousel-example-generic .carousel-caption{
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.66);
+    border-radius: 25px;
+    color: #3E4294;
+    text-shadow: none;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.index{
+    padding-top: 85px;
+}
+.talk-about-us, .all-news {
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    left: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #508DE9;
+    width: 100%;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 3px solid #50C1E9;
+    background-color: #fff;
+    padding-top: 3px;
+}
+#carousel-customer .item{
+    background-color: rgba(151, 218, 242, 0.46) ;
+}
+.customer{
+    padding-left: 10px;
+}
+.customer-img{
+    float: left;
+    width: 115px;
+    height: 115px;
+    overflow: hidden;
+    border: 1px solid #50C1E9;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.customer-img img{
+    height: 150px;
+    margin-top: -15px;
+}
+.customer-info{
+    color: #000;
+    height: 180px;
+    vertical-align: middle;
+    padding: 15px 0
+}
+.customer-info .info{
+    font-size: 10px;
+}
+.portfolio-item{
+    text-align: center;
+}
+.portfolio-item img{
+    width: 50%;
+    display: inline;
+}
+.portfolio-caption{
+    text-align: justify;
+}
+.portfolio-caption h4{
+    font-size: 16px;
+    line-height: 20px;
+}
+.portfolio-caption .text-muted{
+    font-size: 12px;
+}
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+    width: 150px;
+    height: 150px;
 }
